@@ -18,6 +18,12 @@ class Praktikum03 {
         double B = Math.tan(Math.toRadians(a));
         double panjangkapal = h * (A - B);
         System.out.printf("%.1f%s", panjangkapal, " m");
+        h = 90;
+        b = Math.tan(Math.toRadians(b));
+        a = Math.tan(Math.toRadians(a));
+        
+        double panjangkapal = h * (a - b) ;
+        System.out.printf("%.1f", panjangkapal, "m");
 
     }
 }
